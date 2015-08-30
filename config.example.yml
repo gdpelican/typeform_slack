@@ -1,0 +1,9 @@
+local_invited_list: invited.json
+
+formtype_form_uid: FORMTYPE_FORM_UID
+formtype_api_key: FORMTYPE_API_KEY
+formtype_email_field: FORMTYPE_EMAIL_FIELD
+
+slack_domain: SLACK_DOMAIN
+slack_channels: SLACK_CHANNELS
+slack_api_key: SLACK_API_KEY
