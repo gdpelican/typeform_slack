@@ -43,6 +43,6 @@ end
 invitable_emails.each do |email|
   if JSON.parse(invite_to_slack(email).body)['ok']
     puts "Invited #{email}"
-    File.open config.local_invited_list { |file| file.puts "#{email}\n" }
+    File.open(config.local_invited_list, 'a') { |file| file.puts "#{email}\n" }
   end
 end
