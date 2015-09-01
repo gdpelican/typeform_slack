@@ -2,6 +2,7 @@ require 'json'
 require 'curb'
 require 'cgi'
 require 'yaml'
+require 'ostruct'
 
 def config
   @config ||= OpenStruct.new YAML.load_file 'config.yml'
